@@ -1,40 +1,17 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  width: 100%;
-}
-
-header {
-  margin-top: 4rem;
-}
-
-h1 {
-  text-align: center;
-  margin: 1rem 0;
+  display: flex;
 }
 
 section {
-  margin: 0 auto;
-  width: 50%;
+  margin: auto;
 }
 
-.subtitle-display {
-  display: flex;
+h2 {
+  padding-top: 20px;
+}
+
+.subtitle {
   flex-direction: row;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.subtitle-input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 0;
 }
 
 input {
