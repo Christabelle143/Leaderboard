@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Wbpack Exercise</title>
-    <script defer="defer" src="main.js"></script>
-  </head>
-  <body>
-    <h1>Hello webpack!</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard App</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1 class="maintitle">Leaderboard</h1>
+    <section id="displayscores-section">
+        <div class="subtitle-display">
+        <h2 class="recent">Recent Scores</h2>
+        <button type="button" class="btn">Refresh</button>
+        <div class="scores"></div>
+    </div>
+    </section>
+    <section id="addscores-section">
+        <div class="subtitle-input">
+        <h2 class="your-scores">Add your Scores</h2>
+        <form id="add-scores">
+            <div>
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div>
+              <input type="number" id="score" placeholder="Your score" />
+            </div>
+            <div>
+              <button type="submit" class="btn1">Submit</button>
+            </div>
+          </form>
+        </div>
+    </section>
+</body>
 </html>
