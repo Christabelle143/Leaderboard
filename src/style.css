@@ -1,0 +1,19 @@
+body {
+  display: flex;
+}
+
+section {
+  margin: auto;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+.subtitle {
+  flex-direction: row;
+}
+
+input {
+  margin-bottom: 8px;
+}
