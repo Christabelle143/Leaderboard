@@ -28,6 +28,7 @@ form.addEventListener('submit', (e) => {
   user.value = '';
   score.value = '';
 });
+// get scores from Api
 async function getScore() {
   const requestURL = url;
   const request = new Request(requestURL);
