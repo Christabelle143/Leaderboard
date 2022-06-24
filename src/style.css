@@ -17,3 +17,7 @@ h2 {
 input {
   margin-bottom: 8px;
 }
+
+li {
+  list-style-type: none;
+}
