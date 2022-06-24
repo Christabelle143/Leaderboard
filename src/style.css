@@ -1,46 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
   font-family: 'Montserrat', sans-serif;
-
 }
 
-body{
-  background-color: #00FFFF;
+body {
+  background-color: #0ff;
 }
- section{
+
+section {
   display: flex;
   justify-content: center;
   gap: 10%;
- }
- 
- h1{
+}
+
+h1 {
   margin-left: 32%;
- }
+}
+
 .subtitle1 {
- flex: 1;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-gap: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 #btn {
- width: 80px;
- height: 40px; 
+  width: 80px;
+  height: 40px;
   cursor: pointer;
   background-color: #fff;
   box-shadow: 4px 4px;
-} 
-
-li{
-  list-style-type: none;
-  
 }
 
-.scores{
-  border: 2px solid #E6BE8A;
+li {
+  list-style-type: none;
+}
+
+.scores {
+  border: 2px solid #e6be8a;
 }
 
 ul {
@@ -54,17 +54,15 @@ ul:nth-child(odd) {
   background-color: #d3d3d3;
 }
 
-input{
+input {
   margin-bottom: 12px;
   width: 100%;
   box-sizing: border-box;
 }
 
-#submit{
+#submit {
   width: min-content;
   display: flex;
   margin-left: auto;
   box-shadow: 4px 4px;
 }
-
-
