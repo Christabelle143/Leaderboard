@@ -1,4 +1,3 @@
-// import _ from 'lodash';
 import './style.css';
 import show from './modules/displayscores.js';
 
@@ -8,11 +7,9 @@ const form = document.getElementById('form');
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/qrtxrqr2iVYFeQlSONAg/scores';
 
 form.addEventListener('submit', (e) => {
-  // auto submission of the form
   e.preventDefault();
   const user = document.getElementById('user');
   const score = document.getElementById('score');
-  // fetch post request
   fetch(url, {
     method: 'POST',
     body: JSON.stringify({
